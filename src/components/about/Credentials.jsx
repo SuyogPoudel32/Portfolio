@@ -3,6 +3,7 @@ import Credential from "./Credential";
 import { BsMortarboardFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMedal } from "react-icons/fa6";
+import profileImage from "../../assets/profile.png";
 
 const Credentials = () => {
     const data = [
@@ -25,7 +26,7 @@ const Credentials = () => {
     return (
         <div className="w-full block md:flex justify-between mt-[4rem]">
             <div className='w-full md:w-[300px] h-[400px] relative'>
-        <img className='w-full h-full object-cover rounded-2xl' src="src/assets/profile.png" alt="" />
+        <img className='w-full h-full object-cover rounded-2xl' src={profileImage} alt="Suyog Poudel" />
         <div class="absolute inset-0 bg-gradient-to-t from-[#050510b3] via-transparent to-transparent"></div>
       </div>
       <div className='flex flex-col w-full md:w-[70%] gap-7 items-end mt-7 md:mt-0'>

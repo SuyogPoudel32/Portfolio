@@ -17,7 +17,7 @@ const buttons = () => {
         },
     ]
   return (
-    <div className='max-w-screen-xl mx-auto text-white px-10 block md:flex gap-4'>
+    <div className='max-w-screen-xl mx-auto text-white px-5 sm:px-8 md:px-10 md:flex gap-4'>
       {btn_data.map((elem) => (<Button text={elem.text} is_background={elem.is_background} is_icon={elem.is_icon} key={elem.id} />))}
     </div>
   )

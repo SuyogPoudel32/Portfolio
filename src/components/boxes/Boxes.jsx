@@ -17,7 +17,7 @@ const Boxes = () => {
     },
   ]
   return (
-    <div className='max-w-screen-xl px-10 py-2 mx-auto block md:flex mt-5 text-white gap-2'>
+    <div className='max-w-screen-xl px-5 py-2 sm:px-8 mx-auto block md:flex mt-5 text-white gap-2 md:px-10'>
       {stats.map((elem) => <Box elem = {elem} key={elem.title} />)}
     </div>
   )
