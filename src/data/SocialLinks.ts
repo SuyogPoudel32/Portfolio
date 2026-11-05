@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export const socialLinks: SocialLink[] = [
   {
     platform: "GitHub",
-    url: "https://github.com/suyogpoudel",
-    handle: "suyogpoudel",
+    url: "https://github.com/SuyogPoudel32",
+    handle: "SuyogPoudel32",
     icon: FaGithub,
   },
   {
