@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaDownload } from "react-icons/fa6";
 import { TiThMenu } from "react-icons/ti";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion as Motion } from "framer-motion";
 import { GiCrossedBones } from "react-icons/gi";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='relative bg-black w-full text-white'>
+    <div className='relative bg-[#0f172a] md:bg-black w-full text-white'>
       <div className='max-w-screen-xl mx-auto px-4 py-4 sm:px-10'>
         <div className='w-full flex items-center gap-4 sm:gap-10 justify-between'>
           <div className='w-auto lg:w-[25%] flex items-center gap-3 tracking-[0.2em] '>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
         {open && (
 
-          <motion.div initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.3 }}
+          <Motion.div initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.3 }}
           className="fixed inset-0 z-50 bg-black/70 backdrop-blur-xl  flex  items-center  justify-center
             "
           >
@@ -107,7 +107,7 @@ const Navbar = () => {
 
             </nav>
 
-          </motion.div>
+          </Motion.div>
 
         )}
 

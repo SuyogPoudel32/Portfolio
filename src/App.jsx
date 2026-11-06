@@ -14,11 +14,7 @@ function App() {
   return (
     <div id="home" className="w-full overflow-x-clip">
       <Navbar />
-      <div className="relative isolate w-full" ref={vantaRef}>
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 z-10 bg-[#090909]/60 md:hidden"
-        />
+      <div className="relative isolate w-full bg-[#0f172a] md:bg-transparent" ref={vantaRef}>
         <div className="relative z-20">
           <Hero />
           <Button />
