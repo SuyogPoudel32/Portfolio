@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaDownload } from "react-icons/fa6";
 import { TiThMenu } from "react-icons/ti";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { GiCrossedBones } from "react-icons/gi";
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='max-w-screen-xl mx-auto px-4 py-4 sm:px-10'>
         <div className='w-full flex items-center gap-4 sm:gap-10 justify-between'>
           <div className='w-auto lg:w-[25%] flex items-center gap-3 tracking-[0.2em] '>
-            <span class="relative inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-base font-semibold shadow-lg">
+            <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-base font-semibold shadow-lg">
               SP
             </span>
             <span className='text-sm font-medium uppercase '>Suyog Poudel</span>

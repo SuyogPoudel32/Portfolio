@@ -10,17 +10,18 @@ const Skill = ({skills}) => {
                     <p className='font-semibold text-zinc-400'>{skills.focus}</p>
                 </div>
                 <div className="right">
-                    <span class="relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-base font-semibold shadow-lg"></span>
+                    <span className="relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-base font-semibold shadow-lg"></span>
                 </div>
             </div>
 
             {skills.items.map(elem =>{
-                
-                return <div className='border border-white/10 bg-[#ffffff0d] w-full  mt-4 rounded-xl'>
+                const Logo = elem.logo
+                return <div key={elem.name} className='border border-white/10 bg-[#ffffff0d] w-full  mt-4 rounded-xl'>
                 <div className=' p-4 '>
                     <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-3'>
-                            <img className='h-8 w-8' src={elem.logo} alt="" />
+                            {/* <img className='h-8 w-8' src={elem.logo} alt="" /> */}
+                            <Logo />
                             <h3 className='font-semibold'>{elem.name}</h3>
                         </div>
                         <div>
@@ -32,9 +33,9 @@ const Skill = ({skills}) => {
                     <div>
                         <p className='text-zinc-400 font-semibold mt-2'>{elem.description}</p>
                     </div>
-                    <div class="mt-3 h-2 w-full overflow-hidden rounded-full bg-white/5">
+                    <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-white/5">
                         <div
-                            class="h-full rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" style={{width: elem.level + "%"}}>
+                            className="h-full rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" style={{width: elem.level + "%"}}>
 
                             </div>
                     </div>

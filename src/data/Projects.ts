@@ -1,5 +1,15 @@
 import {Project} from "../types/content"
 export const projectCategories = ["All", "Python", "Web", "Data Analytics", "React"];
+import PuSeatAllocationSystem from  "../assets/Images/PuSeatAllocationSystem.webp";
+import Portfolio from  "../assets/Images/Portfolio.webp";
+import HeadPhone from  "../assets/Images/HeadPhone.webp";
+import Slider from  "../assets/Images/Slider.webp";
+import CivicTrack from  "../assets/Images/CivicTrak.webp";
+import TravelWebsite from  "../assets/Images/TravelWebsite.webp";
+import VendorSales from  "../assets/Images/VendorSales.webp";
+import EmployeeDataSet from  "../assets/Images/EmployeeDataSet.webp";
+import EcommerceDataSet from  "../assets/Images/EcommerceDataSet.webp";
+
 export const projects: Project[] = [
 
   {
@@ -11,7 +21,7 @@ export const projects: Project[] = [
   categories: ["Python", "Data"],
   tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
   techStack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-  image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+  image: PuSeatAllocationSystem,
   imageAlt: "Data visualization dashboard representing seat allocation",
   githubUrl: "https://github.com/SuyogPoudel32/PU-Seat-Allocation-System",
   demoUrl: null,
@@ -41,9 +51,9 @@ export const projects: Project[] = [
     "EmailJS"
   ],
 
-  image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80",
+  image: Portfolio,
 imageAlt: "Web designer's portfolio displayed on a laptop",
-  githubUrl: "https://github.com/suyogpoudel",
+  githubUrl: "https://github.com/suyogpoudel32/Portfolio",
   demoUrl: null,
   achievements: [
     "Built a responsive single-page portfolio with React and Vite",
@@ -63,7 +73,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
   categories: ["Web"],
   tags: ["HTML", "CSS", "JavaScript", "GSAP"],
   techStack: ["HTML", "CSS", "JavaScript", "GSAP (GreenSock Animation)"],
-  image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1200&q=80",
+  image: HeadPhone,
   imageAlt: "Black wireless headphones displayed on a minimal background",
   githubUrl: "https://github.com/SuyogPoudel32/responsive-headphone-website",
   demoUrl: null,
@@ -85,7 +95,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
   categories: ["Web" ],
   tags: ["HTML", "CSS", "JavaScript"],
   techStack: ["HTML", "CSS", "JavaScript"],
-  image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+  image: Slider,
   imageAlt: "Carousel / slider showcasing images",
   githubUrl: "https://github.com/SuyogPoudel32/Slider",
   demoUrl: null,
@@ -109,7 +119,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
   categories: ["Web"],
   tags: ["HTML", "CSS", "JavaScript"],
   techStack: ["HTML", "CSS", "JavaScript"],
-  image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+  image: TravelWebsite,
   imageAlt: "Beautiful travel destination with beach and sunset",
   githubUrl: "https://github.com/SuyogPoudel32/Travel-website",
   demoUrl: null,
@@ -131,7 +141,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
     categories: ["Data Analytics"],
     tags: ["Python", "Data Cleaning", "Pandas"],
     techStack: ["Python", "Pandas", "NumPy"],
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    image: EmployeeDataSet,
     imageAlt: "Data analyst workspace with vibrant lighting",
     githubUrl: "https://github.com/SuyogPoudel32/Employee-Data-Cleaning",
     demoUrl: null,
@@ -167,8 +177,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
     "JavaScript",
     "MySQL",
   ],
-  image:
-    "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1200&q=80",
+  image: CivicTrack,
   imageAlt: "Modern city infrastructure representing smart city technology",
   githubUrl: "https://github.com/SuyogPoudel32/Civic_Track",
   demoUrl: null,
@@ -208,8 +217,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
     "Seaborn",
     "Power BI"
   ],
-  image:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+  image: VendorSales,
   imageAlt: "Business analytics dashboard displaying charts and performance metrics",
   githubUrl:
     "https://github.com/SuyogPoudel32/End-to-End-Vendor-Sales-Analysis",
@@ -250,8 +258,7 @@ imageAlt: "Web designer's portfolio displayed on a laptop",
     "Seaborn",
     "Jupyter Notebook"
   ],
-  image:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+  image: EcommerceDataSet,
   imageAlt: "Online shopping and digital commerce transactions",
   githubUrl:
     "https://github.com/SuyogPoudel32/E-Commerce-Customer-Behavior-Sales-Analysis-using-SQL-and-Python",

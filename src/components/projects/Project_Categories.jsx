@@ -4,7 +4,7 @@ import Project_Category from "./Project_Category"
 const Project_Categories = ({selectedCategory,setselectedCategory}) => {
   return (
     <div className='flex flex-wrap gap-3 sm:gap-4 justify-center mt-7 px-3'>
-      {projectCategories.map((elem) => <Project_Category key={elem.id} cate = {elem} setselectedCategory={setselectedCategory} selectedCategory={selectedCategory} />)}
+      {projectCategories.map((elem) => <Project_Category key={elem} cate = {elem} setselectedCategory={setselectedCategory} selectedCategory={selectedCategory} />)}
     </div>
   )
 }
